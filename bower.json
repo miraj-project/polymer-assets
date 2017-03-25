@@ -1,0 +1,33 @@
+{
+  "name": "miraj-polymer-assets",
+  "authors": [
+    "Gregg Reynolds <reynolds-gregg@norc.org>"
+  ],
+  "description": "Miraj Polymer assets",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "GoogleWebComponents#^1.8.1",
+    "paper-elements": "PolymerElements/paper-elements#1.0.7",
+    "iron-elements": "PolymerElements/iron-elements#1.0.10",
+    "app-layout": "PolymerElements/app-layout#0.10.7",
+    "neon-elements": "PolymerElements/neon-elements#1.0.0",
+    "platinum-elements": "PolymerElements/platinum-elements#^2.0.0",
+    "gold-elements": "PolymerElements/gold-elements#^1.0.1",
+    "molecules": "PolymerElements/molecules#^1.0.0",
+    "google-chart": "GoogleWebComponents/google-chart#1.1.2",
+    "google-web-components": "GoogleWebComponents/google-web-components#1.1.1"
+  },
+  "resolutions": {
+    "firebase": "^2.3.1"
+  }
+}
