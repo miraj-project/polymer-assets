@@ -16,7 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "GoogleWebComponents#^1.8.1",
+    "polymer": "Polymer/polymer#2.0.0-rc.3",
     "paper-elements": "PolymerElements/paper-elements#1.0.7",
     "iron-elements": "PolymerElements/iron-elements#1.0.10",
     "app-layout": "PolymerElements/app-layout#0.10.7",
@@ -28,6 +28,8 @@
     "google-web-components": "GoogleWebComponents/google-web-components#1.1.1"
   },
   "resolutions": {
-    "firebase": "^2.3.1"
+    "firebase": "^2.3.1",
+    "polymer": "2.0.0-rc.3",
+    "webcomponentsjs": "^v1.0.0-rc.5"
   }
 }

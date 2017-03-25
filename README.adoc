@@ -4,4 +4,4 @@ Clojure packaging of bower Polymer assets
 
 Use:
 
-                   [miraj.polymer/assets "1.8.1-SNAPSHOT"]
+                   [miraj.polymer/assets "2.0.0-SNAPSHOT"]
