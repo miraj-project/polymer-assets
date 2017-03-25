@@ -1,0 +1,7 @@
+= polymer-assets
+
+Clojure packaging of bower Polymer assets
+
+Use:
+
+                   [miraj.polymer/assets "1.8.1-SNAPSHOT"]
