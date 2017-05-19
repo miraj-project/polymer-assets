@@ -6,14 +6,14 @@
 
  :repositories #(conj % ["clojars" {:url "https://clojars.org/repo/"}])
 
- :dependencies   '[[org.clojure/clojure RELEASE]])
+ :dependencies   '[[org.clojure/clojure "1.9.0-alpha16"]])
 
 (task-options!
  pom  {:project     +project+
        :version     +version+
        :description "Miraj Polymer Assets"
        :url "https://github.com/mobileink/miraj-project/polymer-assets"
-       :scm         {:url "https://github.com/miraj-project/miraj.core.git"}
+       :scm         {:url "https://github.com/miraj-project/polymer-assets.git"}
        :license     {"EPL" "http://www.eclipse.org/legal/epl-v10.html"}})
 
 (deftask install-local
