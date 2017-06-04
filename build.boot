@@ -6,7 +6,7 @@
 
  :repositories #(conj % ["clojars" {:url "https://clojars.org/repo/"}])
 
- :dependencies   '[[org.clojure/clojure "1.9.0-alpha16"]])
+ :dependencies   '[[org.clojure/clojure "1.9.0-alpha17"]])
 
 (task-options!
  pom  {:project     +project+
