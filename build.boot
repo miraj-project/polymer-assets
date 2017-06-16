@@ -1,5 +1,5 @@
 (def +project+ 'miraj.polymer/assets)
-(def +version+ "1.8.1-SNAPSHOT")
+(def +version+ "1.9.1-SNAPSHOT")
 
 (set-env!
  :asset-paths #{"resources"}
