@@ -14,7 +14,8 @@
        :description "Miraj Polymer Assets"
        :url         "https://github.com/miraj-project/polymer-assets"
        :scm         {:url "https://github.com/miraj-project/polymer-assets.git"}
-       :license     {"EPL" "http://www.eclipse.org/legal/epl-v10.html"}})
+       :license     {"EPL" "http://www.eclipse.org/legal/epl-v10.html"}}
+ push {:repo "clojars"})
 
 (deftask install-local
   "Build and install component libraries"
@@ -23,3 +24,9 @@
         (jar)
         (target)
         (install)))
+
+(deftask deploy
+  "deploy to clojars"
+  []
+  (comp (install-local)
+        (push)))
